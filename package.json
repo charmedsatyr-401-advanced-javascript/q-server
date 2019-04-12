@@ -1,0 +1,24 @@
+{
+  "name": "q-server",
+  "version": "0.0.1",
+  "description": "A server using Simple Node Message Queue (@nmq/q)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmedsatyr-401-advanced-javascript/q-server.git"
+  },
+  "keywords": [],
+  "author": "CharmedSatyr <z@charmed.tech>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/charmedsatyr-401-advanced-javascript/q-server/issues"
+  },
+  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/q-server#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3"
+  }
+}
