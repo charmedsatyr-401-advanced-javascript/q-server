@@ -13,9 +13,22 @@
 See [Simple Node Message Queue (@nmq)](https://www.npmjs.com/package/@nmq/q)
 
 ### Modules
-#### `server.js`
-* Monitors `save` and `error` events in the `files` namespace.
-* Monitors `create`, `read`, `update`, and `delete` events in the `database` namespace.
+* `./index.js`
+
+* `./server/server.js`
+
+-----
+
+#### `./index.js`
+* The entry point to the application. Invokes the Q server's `start` method.
+
+-----
+
+#### `./server/server.js`
+* Creates a `files` namespace and monitors `save` and `error` events.
+* Creates a `database` namespace and monitors `create`, `read`, `update`, and `delete` events.
+
+-----
 
 ### Setup
 #### `.env` requirements
@@ -25,7 +38,7 @@ See [Simple Node Message Queue (@nmq)](https://www.npmjs.com/package/@nmq/q)
 * `npm run start`
 
 #### Tests
-N/A
+* `npm run lint`
 
 #### UML
 N/A
